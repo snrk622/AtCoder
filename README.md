@@ -1,6 +1,6 @@
 # Cheat Sheet
 
-```ruby
+```
 .chomp #末尾の改行コードを削除
 .chop #末尾の1文字を削除
 .strip #前後のホワイトスペースを削除
