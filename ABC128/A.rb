@@ -1,8 +1,7 @@
 # Apple Pie https://atcoder.jp/contests/abc128/tasks/abc128_a
 
-apple = gets.strip.to_i
-piece = gets.strip.to_i
+a, p = gets.strip.split.map(&:to_i)
 puts "===================="
 
-puts ((apple*3)+piece)/2.floor
+puts ((a*3)+p)/2.floor
 

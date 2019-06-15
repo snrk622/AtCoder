@@ -7,14 +7,9 @@ k = gets.strip.to_i
 puts "================="
 
 array = [a,b,c,d,e].combination(2).to_a
-i = 0
 result = true
-(array.length - 1).times {
-    if (array[i][0] - array[i][1]).abs <= k
-        i += 1
-    else
-        result = false
-    end
-}
+for a in array
+    result = false if !((a[0] - a[1]).abs <= k)
+end
 
 puts result ? 'Yay!' : ':('

@@ -1,9 +1,5 @@
-routeP = gets.strip.to_i
-routeQ = gets.strip.to_i
-routeR = gets.strip.to_i
+routes = gets.strip.split.map(&:to_i)
 puts "================="
 
-min_route = 0
-route = [routeP, routeQ, routeR].sort.slice(0, 2).map{|a| min_route += a}
-puts min_route
-
+route = routes.sort.slice(0, 2).inject(:+)
+p route
