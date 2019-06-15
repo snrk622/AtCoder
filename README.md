@@ -25,3 +25,8 @@ i.times{} #i回{}の処理を繰り返す
 .abs #絶対値
 .split(str) #strで文字列を分割して配列に(引数なしの場合は半角スペース)
 ```
+
+---
+
+# Review
+* [ABC128 B](https://atcoder.jp/contests/abc128/tasks/abc128_b)
