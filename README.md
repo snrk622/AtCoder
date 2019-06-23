@@ -24,9 +24,11 @@ i.times{} #i回{}の処理を繰り返す
 .repeated_permutation(i).to_a #i個の組み合わせ（順序あり、重複あり）を配列に
 .abs #絶対値
 .split(str) #strで文字列を分割して配列に(引数なしの場合は半角スペース)
+.drop(i) #配列の先頭からi個削除
 ```
 
 ---
 
 # Review
 * [ABC128 B](https://atcoder.jp/contests/abc128/tasks/abc128_b)
+* [ABC122 B](https://atcoder.jp/contests/abc122/tasks/abc122_b)
