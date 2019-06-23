@@ -11,6 +11,7 @@
 .sort #昇順でソート
 .sort.reverse #降順でソート
 .slice(idx, len) #idx番目からlen分切り出す
+.slice(idx..-1) #idx番目から最後まで切り出す
 .floor #切り捨て
 .ceil #切り上げ
 .round #四捨五入
