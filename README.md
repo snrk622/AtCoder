@@ -34,3 +34,4 @@ i.times{} #i回{}の処理を繰り返す
 # Review
 * [ABC128 B](https://atcoder.jp/contests/abc128/tasks/abc128_b)
 * [ABC122 B](https://atcoder.jp/contests/abc122/tasks/abc122_b)
+* [ABC131 C](https://atcoder.jp/contests/abc131/tasks/abc131_c)
